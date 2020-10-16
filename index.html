@@ -1,36 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!---NOTIFICATION-->
-<script>
-  //some default pre init
-  var PB = PB || {};PB.q = PB.q || [];PB.events = PB.events || [];
-  
-  //PushBots ApplicationId (required)
-  PB.app_id = "5f7442e649a32363137daa43";
-  //Your domain name, must be HTTPS or localhost  (required)
-  PB.domain = "https://colonelvyas.co.in";
-  //Update and uncomment it if you are using custom safari certificate for your app
-  PB.safari_push_id = "web.com.pushbots.safaripush";
-  //****************************************
-  
-  PB.logging_enabled = true;
-  PB.auto_subscribe = true;
-  
-  //Custom worker and manifest URL
-  //PB.worker_url = PB.domain + "/pushbots-worker.js";
-  
-  //Welcome notification message
-  PB.welcome = {title:"Welcome ",message:"Thanks for subscribing!", url :PB.domain};
-  
-  function sendNotification(){
-        PB.register();
-        PB.q.push(["sendNotification", {title:"Hey ",message:"Why not?", url :"https://colonelvyas.co.in"}]);
-  }
-  
-  </script>
-  
-  <script src="//cdn.pushbots.com/js/sdk.min.js" type="text/javascript" onload="PB.init()" async></script>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174223749-2"></script>
 <script>
@@ -68,8 +38,6 @@
   <link href="img/favicon.png" rel="icon">
   <link href="img/favicon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
 
   <!-- Bootstrap CSS File -->
   <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -165,7 +133,7 @@
             </div>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="https://colonelvyas.co.in/contact">Contact</a>
+            <a class="nav-link" href="https://colonelvyas.co.in/contact">Blogs</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
@@ -175,7 +143,7 @@
             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
               <a class="dropdown-item" href="https://colonelvyas.co.in/PSYCHOTHERAPY">Psychotherapy</a>
               <a class="dropdown-item" href="https://colonelvyas.co.in/education">Free Tutions</a>
-              <a class="dropdown-item" href="https://blogs.colonelvyas.co.in">Blogs</a>
+              <a class="dropdown-item" href="https://blogs.colonelvyas.co.in/contact">Blogs</a>
             </div>
           </li> 
         </ul>
