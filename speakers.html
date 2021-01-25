@@ -47,13 +47,36 @@
 
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
-
+<style>
+  .cookie-banner {
+  position: fixed;
+  bottom: 40px;
+  left: 10%;
+  right: 10%;
+  width: 80%;
+  padding: 5px 14px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #eee;
+  border-radius: 5px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+.close {
+  height: 20px;
+  background-color: #777;
+  border: none;
+  color: white;
+  border-radius: 2px;
+  cursor: pointer;
+}
+</style>
 </head>
 
 <body>
 
   <div class="click-closed"></div>
- 
+  
 
   <!--/ Nav Star /-->
   <nav class="navbar navbar-default navbar-trans navbar-expand-lg fixed-top">
@@ -637,6 +660,22 @@
 <!--/ Footer End /-->
 
 <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+<div class='cookie-banner' style='display: none'>
+  <p>
+      For Free SSB Training  
+      <a href='https://colonelvyas.co.in/registeration'>Click here</a>
+    </p>
+  <button class='close'>&times;</button>
+  </div>
+  <script>
+    if (localStorage.getItem('cookieSeen') != 'shown') {
+$('.cookie-banner').delay(2000).fadeIn();
+localStorage.setItem('cookieSeen','shown')
+};
+$('.close').click(function() {
+$('.cookie-banner').fadeOut();
+})
+  </script>
 
 <!-- JavaScript Libraries -->
 <script src="lib/jquery/jquery.min.js"></script>
