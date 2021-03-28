@@ -3,7 +3,16 @@
 <html>
 
 <head>
-  <!-- Basic -->
+  <!--Google Analytics-->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-174223749-2"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-174223749-2');
+  </script>
+<!--Basic-->
   <meta charset="utf-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <!-- Mobile Metas -->
@@ -13,6 +22,20 @@
   <meta name="description" content="" />
   <meta name="author" content="" />
   <link rel="shortcut icon" href="images/favicon.png" type="">
+  <!--prefetch documents-->
+  <link rel="prefetch" href="img/1.jpg" as="image">
+  <link rel="prefetch" href="img/2.jpg" as="image">
+  <link rel="prefetch" href="img/3.jpg" as="image">
+  <link rel="prefetch" href="img/4.jpg" as="image">
+  <link rel="prefetch" href="img/5.jpg" as="image">
+  <link rel="prefetch" href="img/6.jpg" as="image">
+  <link rel="prefetch" href="img/7.jpg" as="image">
+  <link rel="prefetch" href="img/8.jpg" as="image">
+  <link rel="prefetch" href="img/9.jpg" as="image">
+  <link rel="prefetch" href="img/10.jpg" as="image">
+  <link rel="prefetch" href="img/11.jpg" as="image">
+  <link rel="prefetch" href="img/12.jpg" as="image">
+  <link rel="prefetch" href="img/13.jpg" as="image">
 
   <title> DOSPDP - The Free SSB Project </title>
 
@@ -33,7 +56,25 @@
   <!-- responsive style -->
   <link href="css/responsive.css" rel="stylesheet" />
   <script src="https://kit.fontawesome.com/b6f33f648a.js" crossorigin="anonymous"></script>
-</head>
+  <!--PushBot-->
+  <script>
+    var PB = PB || {};PB.q = PB.q || [];PB.events = PB.events || [];
+    PB.app_id = "60601863f3a6b335110c9fa8";
+    PB.domain = "https://colonelvyas.co.in";
+    PB.safari_push_id = "web.com.pushbots.safaripush";
+    
+    PB.logging_enabled = true;
+    PB.auto_subscribe = true;
+    PB.welcome = {title:"Welcome to DOSPDP",message:"Thanks for subscribing!", url :PB.domain};
+    
+    function sendNotification(){
+          PB.register();
+          PB.q.push(["sendNotification", {title:"Hey ",message:"Why not?", url :"https://colonelvyas.co.in"}]);
+    }
+    </script>
+    <script src="//cdn.pushbots.com/js/sdk.min.js" type="text/javascript" onload="PB.init()" async></script>
+    <!--Push Bot End-->
+  </head>
 
 <body>
 
