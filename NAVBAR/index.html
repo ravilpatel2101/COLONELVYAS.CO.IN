@@ -2,8 +2,7 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <script src="theme.js"></script>
-  <script src="js.js"></script>
+  <script defer src="theme.js"></script>
   <link rel="stylesheet" href="style.css" />
   <title>PPDT MOCK TEST 1</title>
   <link
@@ -75,7 +74,7 @@
       </li>
 
       <li class="nav-item">
-        <a href="#" onClick="openFullscreen(); playPause(); SHOWVIDEO(); SHOWBTN();" class="nav-link">
+        <a href="#" class="nav-link">
           <svg
             aria-hidden="true"
             focusable="false"
@@ -169,19 +168,20 @@
     </div>
     <div id="fullscreen">
       <video id="video" muted poster="Images/1.jpg">
-        <source src="https://drive.google.com/file/d/1anxZQzNrk--AG0MD5-IoMRzs_G-xKWUW/preview" type="video/mp4">
+        <source src="vid/1.mp4" type="video/mp4">
             Your browser does not support this test. Please use Google Chrome or Brave Browser.
       </video>
     
 
     <div>
-      <button href="# id="mybutton" " onclick="closeFullscreen(); playPause(); HIDEBTN(); HIDEVIDEO();">
+      <button id="mybutton" href="#fullscreen" onclick="closeFullscreen(); playPause(); HIDEBTN(); HIDEVIDEO();">
         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrows-angle-contract" viewBox="0 0 16 16">
           <path fill-rule="evenodd" d="M.172 15.828a.5.5 0 0 0 .707 0l4.096-4.096V14.5a.5.5 0 1 0 1 0v-3.975a.5.5 0 0 0-.5-.5H1.5a.5.5 0 0 0 0 1h2.768L.172 15.121a.5.5 0 0 0 0 .707zM15.828.172a.5.5 0 0 0-.707 0l-4.096 4.096V1.5a.5.5 0 1 0-1 0v3.975a.5.5 0 0 0 .5.5H14.5a.5.5 0 0 0 0-1h-2.768L15.828.879a.5.5 0 0 0 0-.707z"/>
         </svg>
       
       </button>
-  </div></div>
+  </div>
+</div>
   </main>
 </body>
 </html>
