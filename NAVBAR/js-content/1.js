@@ -2,7 +2,7 @@ document.writeln('<script id="dsq-count-scr" src="//ppdt-mock.disqus.com/count.j
 document.writeln('<script src="coment/dis.js"></script>');
 document.writeln('<script src="basics/basics.js"></script>');
 document.writeln('<script src="coment/dis.js"></script>');
-document.writeIn('<head> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <title>PPDT MOCK TEST 1</title> <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap" rel="stylesheet" /> </head>')
+document.write( '<head> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /> <title>PPDT MOCK TEST 1</title> <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap\" rel=\"stylesheet\" /> </head>' );
 
 document.write( '<nav class=\"navbar\">\n' );
 document.write( '    <ul class=\"navbar-nav\">\n' );
