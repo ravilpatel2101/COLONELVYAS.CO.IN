@@ -1,8 +1,3 @@
-document.writeln('<script id="dsq-count-scr" src="//ppdt-mock.disqus.com/count.js" async></script>');
-document.writeln('<script src="coment/dis.js"></script>');
-document.writeln('<script src="basics/basics.js"></script>');
-document.writeln('<script src="coment/dis.js"></script>');
-document.write( '<head> <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" /> <title>PPDT MOCK TEST 1</title> <link href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap\" rel=\"stylesheet\" /> </head>' );
 
 document.write( '<nav class=\"navbar\">\n' );
 document.write( '    <ul class=\"navbar-nav\">\n' );
@@ -181,4 +176,8 @@ document.write( '</div>\n' );
 document.write( '<div id="disqus_thread" style="padding: 55px;"></div>' );
 document.write('<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>')
 document.write( '  </main>' );
+document.writeln('<script id="dsq-count-scr" src="//ppdt-mock.disqus.com/count.js" async></script>');
+document.writeln('<script src="coment/dis.js"></script>');
+document.writeln('<script src="basics/basics.js"></script>');
+document.writeln('<script src="coment/dis.js"></script>');
 
