@@ -167,7 +167,7 @@ document.write( '      \n' );
 document.write( '      </button>\n' );
 document.write( '  </div>\n' );
 document.write( '</div>\n' );
-
+document.write('<div id=\"disqus_thread"></div>')
  
 document.write( '  </main>' );
 document.write('<script id=\"dsq-count-scr" src=\"//ppdt-mock.disqus.com/count.js" async></script>');
