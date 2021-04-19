@@ -174,10 +174,8 @@ document.write( '      </button>\n' );
 document.write( '  </div>\n' );
 document.write( '</div>\n' );
 document.write( '<div id="disqus_thread" style="padding: 55px;"></div>' );
-document.write('<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>')
 document.write( '  </main>' );
-document.writeln('<script id="dsq-count-scr" src="//ppdt-mock.disqus.com/count.js" async></script>');
-document.writeln('<script src="coment/dis.js"></script>');
-document.writeln('<script src="basics/basics.js"></script>');
-document.writeln('<script src="coment/dis.js"></script>');
+document.write('<script id="dsq-count-scr" src="//ppdt-mock.disqus.com/count.js" async></script>');
+document.write('<script src="coment/dis.js"></script>');
+document.write('<script src="basics/basics.js"></script>');
 
