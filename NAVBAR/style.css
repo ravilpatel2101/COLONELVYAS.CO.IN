@@ -267,12 +267,14 @@ main {
     display: none;
     margin-top: auto;
     margin-bottom: bottom;
+    orientation: landscape;
   }
 }
 
 #fullscreen{
   background-color: rgb(255, 255, 255);
   align-items: center;
+  
 }
 
 #mybutton {
