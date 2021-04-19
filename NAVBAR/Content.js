@@ -28,7 +28,7 @@ document.write( '            </g>\n' );
 document.write( '          </svg>\n' );
 document.write( '        </a>\n' );
 document.write( '      </li>\n' );
-document.write( '\n' );
+ 
 document.write( '      \n' );
 document.write( '      <li class=\"nav-item\">\n' );
 document.write( '        <a href=\"#\" class=\"nav-link\">\n' );
@@ -58,7 +58,7 @@ document.write( '          </svg>\n' );
 document.write( '          <span class=\"link-text\">Dashboard</span>\n' );
 document.write( '        </a>\n' );
 document.write( '      </li>\n' );
-document.write( '\n' );
+ 
 document.write( '      <li class=\"nav-item\">\n' );
 document.write( '        <a href=\"#\" class=\"nav-link\">\n' );
 document.write( '          <svg\n' );
@@ -87,7 +87,7 @@ document.write( '          </svg>\n' );
 document.write( '          <span class=\"link-text\">Full Screen</span>\n' );
 document.write( '        </a>\n' );
 document.write( '      </li>\n' );
-document.write( '\n' );
+ 
 document.write( '      <li class=\"nav-item\">\n' );
 document.write( '        <a href=\"#\" class=\"nav-link\">\n' );
 document.write( '          <svg\n' );
@@ -121,18 +121,18 @@ document.write( '          </svg>\n' );
 document.write( '          <span class=\"link-text\">Solutions</span>\n' );
 document.write( '        </a>\n' );
 document.write( '      </li>\n' );
-document.write( '\n' );
+ 
 document.write( '      <li class=\"nav-item\" id=\"themeButton\">\n' );
 document.write( '        \n' );
 document.write( '      </li>\n' );
 document.write( '    </ul>\n' );
 document.write( '  </nav>\n' );
-document.write( '\n' );
+ 
 document.write( '  <main>\n' );
 document.write( '    \n' );
-document.write( '\n' );
+ 
 document.write( '    <h1>Welcome to PPDT Mock</h1>\n' );
-document.write( '\n' );
+ 
 document.write( '    <div class=\"row5\">\n' );
 document.write( '      <div class=\"column5\">\n' );
 document.write( '        <h2>Some Basic Instructions</h2>\n' );
@@ -157,7 +157,7 @@ document.write( '      <video id=\"video\" muted>\n' );
 document.write( '        <source src=\"vid/1.mp4\" type=\"video/mp4\">\n' );
 document.write( '            Your browser does not support this test. Please use Google Chrome or Brave Browser.\n' );
 document.write( '      </video>\n' );
-document.write( '\n' );
+ 
 document.write( '    <div>\n' );
 document.write( '      <button id=\"mybutton\" href=\"#\" onclick=\"closeFullscreen(); playPause(); HIDEBTN(); HIDEVIDEO();\">\n' );
 document.write( '        <svg xmlns=\"http://www.w3.org/2000/svg\" width=\"16\" height=\"16\" fill=\"currentColor\" class=\"bi bi-arrows-angle-contract\" viewBox=\"0 0 16 16\">\n' );
@@ -167,7 +167,7 @@ document.write( '      \n' );
 document.write( '      </button>\n' );
 document.write( '  </div>\n' );
 document.write( '</div>\n' );
-document.write( '\n' );
+ 
 document.write( '  </main>' );
 
 /**
