@@ -1,4 +1,3 @@
-
 document.write( '<nav class=\"navbar\">\n' );
 document.write( '    <ul class=\"navbar-nav\">\n' );
 document.write( '      <li class=\"logo\">\n' );
@@ -127,7 +126,7 @@ document.write( '      <li class=\"nav-item\" id=\"themeButton\">\n' );
 document.write( '        \n' );
 document.write( '      </li>\n' );
 document.write( '    </ul>\n' );
-document.write( '  <av>\n' );
+document.write( '  </nav>\n' );
 document.write( '\n' );
 document.write( '  <main>\n' );
 document.write( '    \n' );
@@ -155,12 +154,7 @@ document.write( '      </center>\n' );
 document.write( '    </div>\n' );
 document.write( '    <div id=\"fullscreen\">\n' );
 document.write( '      <video id=\"video\" muted>\n' );
-
-//**FIRE ME */
-//******************************************************************************************************* */
-document.write( '        <source src=\"vid/1.mp4\" type=\"video/mp4\">\n' ); /*****************************/
-//******************************************************************************************************* */
-
+document.write( '        <source src=\"vid/1.mp4\" type=\"video/mp4\">\n' );
 document.write( '            Your browser does not support this test. Please use Google Chrome or Brave Browser.\n' );
 document.write( '      </video>\n' );
 document.write( '\n' );
@@ -173,7 +167,7 @@ document.write( '      \n' );
 document.write( '      </button>\n' );
 document.write( '  </div>\n' );
 document.write( '</div>\n' );
-document.write( '<div id="disqus_thread" style="padding: 55px;"></div>' );
+document.write( '\n' );
 document.write( '  </main>' );
 document.write('<script id="dsq-count-scr" src="//ppdt-mock.disqus.com/count.js" async></script>');
 document.write('<script src="coment/dis.js"></script>');
