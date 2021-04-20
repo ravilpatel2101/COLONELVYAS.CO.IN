@@ -1,3 +1,5 @@
+
+
 document.write( '<head> \n' );
 document.write( '    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n' );
 document.write( '    <link rel=\"stylesheet\" href=\"style.css\" />\n' );
