@@ -1,7 +1,7 @@
 document.write( '<head> \n' );
 document.write( '    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n' );
 document.write( '    <link rel=\"stylesheet\" href=\"style.css\" />\n' );
-document.write( '    <title>PPDT MOCK TEST 1</title>\n' );
+document.write( '    <title>TAT MOCK TEST 1</title>\n' );
 document.write( '    <link\n' );
 document.write( '      href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap\"\n' );
 document.write( '      rel=\"stylesheet\"\n' );
