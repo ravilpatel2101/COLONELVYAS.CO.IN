@@ -1,3 +1,13 @@
+document.write( '<head> \n' );
+document.write( '    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n' );
+document.write( '    <link rel=\"stylesheet\" href=\"style.css\" />\n' );
+document.write( '    <title>PPDT MOCK TEST 1</title>\n' );
+document.write( '    <link\n' );
+document.write( '      href=\"https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap\"\n' );
+document.write( '      rel=\"stylesheet\"\n' );
+document.write( '    />\n' );
+document.write( '  </head>' );
+document.write( '<body>' );
 document.write( '<nav class=\"navbar\">\n' );
 document.write( '    <ul class=\"navbar-nav\">\n' );
 document.write( '      <li class=\"logo\">\n' );
@@ -131,13 +141,13 @@ document.write( '  </nav>\n' );
 document.write( '  <main>\n' );
 document.write( '    \n' );
  
-document.write( '    <h1>Welcome to PPDT Mock</h1>\n' );
+document.write( '    <h1>Welcome to TAT Mock</h1>\n' );
  
 document.write( '    <div class=\"row5\">\n' );
 document.write( '      <div class=\"column5\">\n' );
 document.write( '        <h2>Some Basic Instructions</h2>\n' );
 document.write( '        <ul type=\"square\"> \n' );
-document.write( '          <li>You can practice for PPDT - Picture Perception Description Test over here for unlimited times.</li>\n' );
+document.write( '          <li>You can practice for TAT - Thematic Apperception Test over here for unlimited times.</li>\n' );
 document.write( '          <li>Do check out the solutions after attempting the test so you can actually test yourself properly.</li>\n' );
 document.write( '          <li>Use full screen for best result and mobile users can use landscape orientation for best performance.</li>\n' );
 document.write( '          <li>Do share a review in the comment section, so we can improve our system as well as get motivated to work more.</li>\n' );
@@ -167,9 +177,10 @@ document.write( '      \n' );
 document.write( '      </button>\n' );
 document.write( '  </div>\n' );
 document.write( '</div>\n' );
-document.write('<div id=\"disqus_thread"></div>')
+document.write('<div id=\"disqus_thread\"></div>')
  
 document.write( '  </main>' );
-document.write('<script id=\"dsq-count-scr" src=\"//ppdt-mock.disqus.com/count.js" async></script>');
-document.write('<script src=\"basics/basics.js"></script>');
+document.write( '<script> var disqus_config = function () { this.page.url = \'https://colonelvyas.co.in/NAVBAR\'; this.page.identifier = \'36485\'; }; (function() { // DON\'T EDIT BELOW THIS LINE var d = document, s = d.createElement(\'script\'); s.src = \'https://ppdt-mock.disqus.com/embed.js\'; s.setAttribute(\'data-timestamp\', +new Date()); (d.head || d.body).appendChild(s); })(); </script>' );
+document.write('<script id=\"dsq-count-scr\" src=\"//TAT-mock.disqus.com/count.js\" async></script>');
+document.write('<script src=\"basics/basics.js\"></script>');
 
