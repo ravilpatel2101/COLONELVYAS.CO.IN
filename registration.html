@@ -123,7 +123,7 @@
                 <label for="field3">
                 <span>Gender</span>
                 <input type="radio" 
-                       name="entry.1244127376" value="male" id="male"/>Male 
+                       name="entry.1244127376" value="male" id="male" required="true"/>Male 
                 <input type="radio" 
                        name="entry.1244127376" value="female" id="female"/>Female
                 </label><br>
@@ -161,8 +161,9 @@
             
                   <label for="field6">
                     <span>Mobile Number(Enabled with Whatsapp)</span>
-                    <input type="text" 
+                    <input type="tel" 
                            name="entry.911270170" 
+			   pattern="^\d{10}$"
                            required="true" />
                   </label><br><br>
             
@@ -182,9 +183,14 @@
                   </label>
             
                 
-                    <Input type="submit" value="Submit"/> 
+                    <button style="border: none;"><Input type="submit" value="Submit" id="submit"/></button> 
                        <br><br>
             </form>
+
+		<!-- LOADING GIF -->
+		<img src="images/load.jpg" id="imgload" style="display:none"/ >
+		<!--END-->
+
                </div>
           </section>
           <script type="text/javascript">
@@ -193,7 +199,14 @@
                 h.style.height = "20px";
                 h.style.height = (h.scrollHeight)+"px";
             }
-          
+          $('#submit').click(function(){
+	  $('#imgload').show(); //<----here
+ 	 $.ajax({
+   	 ....
+  	 success:function(result){
+       $('#img').hide();  //<--- hide again
+   }
+}
           </script>
 
 
